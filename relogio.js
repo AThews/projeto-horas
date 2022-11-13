@@ -1,6 +1,6 @@
 //Pegar a hora e minuto do sistema
 
-const hora = 11
+const hora = new Date().getHours()
 const minutos = new Date().getMinutes();
 //Pegar a div da foto
 
