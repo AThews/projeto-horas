@@ -39,9 +39,7 @@ div#msg {
 }
 
 #foto {
-    width: 80%;
-    margin-left: auto;
-    min-width: 10em;
+    text-align: center;
 }
 
 footer {
