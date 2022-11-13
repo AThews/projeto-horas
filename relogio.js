@@ -1,6 +1,6 @@
 //Pegar a hora e minuto do sistema
 
-const hora = new Date().getHours()
+const hora = 11
 const minutos = new Date().getMinutes();
 //Pegar a div da foto
 
@@ -25,7 +25,7 @@ function carregar() {
     if (hora > 6 && hora <= 12){
         //bom dia
         img.innerHTML = '<img src="images/manha.png">';
-        corpo.style.background = "#9a8667"
+        corpo.style.background = "#f9a889"
         
     } else if (hora > 13 && hora < 17){
         //boa tarde

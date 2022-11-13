@@ -14,6 +14,7 @@ header h1 {
     padding: 1.4em;
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 #sec {
@@ -34,12 +35,13 @@ div#msg {
     padding-inline: 4px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+    font-weight: 500;
 }
 
 #foto {
     width: 80%;
-    height: 20em;
     margin-left: auto;
+    min-width: 10em;
 }
 
 footer {
